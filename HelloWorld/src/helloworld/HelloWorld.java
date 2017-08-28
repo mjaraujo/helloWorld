@@ -20,6 +20,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         Exibicao exibicao = new Exibicao();
         exibicao.iniciarMensagens();
+        exibicao.exibirMensagens();
     }        
     
 }
