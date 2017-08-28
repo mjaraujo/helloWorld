@@ -5,6 +5,7 @@
  */
 package helloworld;
 
+
 import helloworld.mensagens.Alan;
 import java.util.ArrayList;
 
@@ -20,7 +21,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         Exibicao exibicao = new Exibicao();
         exibicao.iniciarMensagens();
-        
-    }
+    }        
     
 }
