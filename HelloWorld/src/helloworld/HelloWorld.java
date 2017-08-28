@@ -6,7 +6,6 @@
 package helloworld;
 
 
-import helloworld.mensagens.Alan;
 import java.util.ArrayList;
 
 /**
