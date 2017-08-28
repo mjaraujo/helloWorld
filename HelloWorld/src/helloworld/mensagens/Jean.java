@@ -15,7 +15,7 @@ public class Jean extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Minha mensagem!");
+        System.out.println("Jean");
     }
     
 }
