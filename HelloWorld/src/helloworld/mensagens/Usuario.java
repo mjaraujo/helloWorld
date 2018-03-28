@@ -15,7 +15,7 @@ public class Usuario extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Lenon");
+        System.out.println("Tico tico no fubá kakakaka");
     }
     
 }
