@@ -15,7 +15,7 @@ public class Estoque extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Teste01");
+        System.out.println("Teste0102");
     }
     
 }
