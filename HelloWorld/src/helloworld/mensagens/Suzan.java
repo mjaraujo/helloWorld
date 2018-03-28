@@ -15,7 +15,7 @@ public class Suzan extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Mensagem da Susan");
+        System.out.println("Mensagem da Suzan");
     }
     
 }
