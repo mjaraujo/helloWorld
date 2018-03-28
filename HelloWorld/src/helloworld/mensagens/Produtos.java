@@ -11,11 +11,11 @@ import helloworld.Mensagem;
  *
  * @author ALUNO
  */
-public class Suzan extends Mensagem {
+public class Produtos extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Mensagem da Suzan");
+        System.out.println("Alecsander");
     }
     
 }

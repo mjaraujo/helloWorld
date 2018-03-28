@@ -11,7 +11,7 @@ import helloworld.Mensagem;
  *
  * @author ALUNO
  */
-public class Jean extends Mensagem {
+public class Venda extends Mensagem {
 
     @Override
     protected void exibirMensagem() {

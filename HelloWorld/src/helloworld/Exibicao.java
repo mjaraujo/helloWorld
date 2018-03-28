@@ -6,14 +6,14 @@
 package helloworld;
 
 
-import helloworld.mensagens.Alan;
-import helloworld.mensagens.Bruno;
-import helloworld.mensagens.Jean;
-import helloworld.mensagens.Marcio;
-import helloworld.mensagens.Marcos;
-import helloworld.mensagens.Nazario;
-import helloworld.mensagens.Raissa;
-import helloworld.mensagens.Suzan;
+import helloworld.mensagens.Clientes;
+import helloworld.mensagens.Produtos;
+import helloworld.mensagens.Venda;
+import helloworld.mensagens.WebService;
+import helloworld.mensagens.Infra;
+import helloworld.mensagens.Caixa;
+import helloworld.mensagens.Usuario;
+import helloworld.mensagens.Estoque;
 import java.util.ArrayList;
 
 /**
@@ -24,21 +24,21 @@ public class Exibicao {
     ArrayList<Mensagem> mensagens = new ArrayList<>();
 
     public void iniciarMensagens(){
-        Mensagem alan = new Alan();
+        Mensagem alan = new Clientes();
         mensagens.add(alan);
-        Mensagem bruno = new Bruno();
+        Mensagem bruno = new Produtos();
         mensagens.add(bruno);
-        Mensagem jean = new Jean();
+        Mensagem jean = new Venda();
         mensagens.add(jean);
-        Mensagem marcos = new Marcos();
+        Mensagem marcos = new Infra();
         mensagens.add(marcos);
-        Mensagem nazario = new Nazario();
+        Mensagem nazario = new Caixa();
         mensagens.add(nazario);
-        Mensagem raissa = new Raissa();
+        Mensagem raissa = new Usuario();
         mensagens.add(raissa);
-        Mensagem suzan = new Suzan();
+        Mensagem suzan = new Estoque();
         mensagens.add(suzan);
-        Mensagem marcio = new Marcio();
+        Mensagem marcio = new WebService();
         mensagens.add(marcio);
         
         
@@ -48,6 +48,7 @@ public class Exibicao {
         
         
         for(Mensagem m: mensagens){
+            System.out.println();
             m.exibirMensagem();
         }
     }

@@ -11,11 +11,11 @@ import helloworld.Mensagem;
  *
  * @author ALUNO
  */
-public class Marcos extends Mensagem {
+public class Infra extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("My name is Marcos!");
+        System.out.println("Raíssa");
     }
     
 }
