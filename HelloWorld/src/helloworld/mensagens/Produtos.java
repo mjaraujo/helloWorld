@@ -6,6 +6,7 @@
 package helloworld.mensagens;
 
 import helloworld.Mensagem;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -15,7 +16,7 @@ public class Produtos extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Alecsander");
+        JOptionPane.showMessageDialog(null,"O produto esta na prateleira");
     }
     
 }
