@@ -24,22 +24,22 @@ public class Exibicao {
     ArrayList<Mensagem> mensagens = new ArrayList<>();
 
     public void iniciarMensagens(){
-        Mensagem alan = new Clientes();
-        mensagens.add(alan);
-        Mensagem bruno = new Produtos();
-        mensagens.add(bruno);
+        Mensagem cliente = new Clientes();
+        mensagens.add(cliente);
+        Mensagem produto = new Produtos();
+        mensagens.add(produto);
         Mensagem jean = new Venda();
         mensagens.add(jean);
-        Mensagem marcos = new Infra();
-        mensagens.add(marcos);
-        Mensagem nazario = new Caixa();
-        mensagens.add(nazario);
-        Mensagem raissa = new Usuario();
-        mensagens.add(raissa);
-        Mensagem suzan = new Estoque();
-        mensagens.add(suzan);
-        Mensagem marcio = new WebService();
-        mensagens.add(marcio);
+        Mensagem infra = new Infra();
+        mensagens.add(infra);
+        Mensagem caixa = new Caixa();
+        mensagens.add(caixa);
+        Mensagem usuario = new Usuario();
+        mensagens.add(usuario);
+        Mensagem estoque = new Estoque();
+        mensagens.add(estoque);
+        Mensagem webService = new WebService();
+        mensagens.add(webService);
         
         
     }
