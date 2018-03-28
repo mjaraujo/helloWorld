@@ -15,7 +15,7 @@ public class Nazario extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("No alto do Cume plantei uma roseira, O vento no cume bate, a rosa no cume cheira!!s");
+        System.out.println("Nazário");
     }
     
 }

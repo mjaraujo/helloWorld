@@ -15,7 +15,7 @@ public class Bruno extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("shazan carai!");
+        System.out.println("Bruno");
     }
     
 }
