@@ -9,13 +9,13 @@ import helloworld.Mensagem;
 
 /**
  *
- * @author ALUNO
+ * @author Lucas Pereira Lopes
  */
-public class Venda extends Mensagem {
+public class CadastroProdutosInternet extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Venda implementado por Richard!");
+        System.out.println("Classe Cadastro de Produtos Inernet implementada por Lucas Pereira Lopes");
     }
     
 }
