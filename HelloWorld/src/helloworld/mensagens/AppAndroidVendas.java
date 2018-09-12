@@ -9,13 +9,13 @@ import helloworld.Mensagem;
 
 /**
  *
- * @author ALUNO
+ * @author a1838075
  */
-public class Venda extends Mensagem {
-
+public class AppAndroidVendas extends Mensagem {
+    
     @Override
     protected void exibirMensagem() {
-        System.out.println("Venda implementado por Richard!");
+        System.out.println("Classe App Android Vendas Implementada por Nathalie Martins");
     }
     
 }

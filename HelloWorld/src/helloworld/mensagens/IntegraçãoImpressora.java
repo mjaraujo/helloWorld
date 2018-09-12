@@ -9,13 +9,11 @@ import helloworld.Mensagem;
 
 /**
  *
- * @author ALUNO
+ * @author a1808281
  */
-public class Venda extends Mensagem {
-
+public class IntegraçãoImpressora extends Mensagem {
     @Override
     protected void exibirMensagem() {
-        System.out.println("Venda implementado por Richard!");
+        System.out.println("Integração com a Impressora S550; Por Jonathan Galdino");
     }
-    
 }
