@@ -15,7 +15,7 @@ public class Venda extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Jean");
+        System.out.println("Venda implementado por Richard!");
     }
     
 }
