@@ -9,13 +9,13 @@ import helloworld.Mensagem;
 
 /**
  *
- * @author ALUNO
+ * @author a1808052
  */
-public class Estoque extends Mensagem {
-
+public class ConsultaProdutos extends Mensagem{
+    
     @Override
     protected void exibirMensagem() {
-        System.out.println("Estoque implementada por João!"); 
+        System.out.println("Consulta de produtos - by: Lenin"); 
     }
     
 }
