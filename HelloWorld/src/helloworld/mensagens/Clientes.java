@@ -15,7 +15,7 @@ public class Clientes extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Palmeiras não tem mundial!!!");
+        System.out.println("Clientes!!!");
     }
     
 }

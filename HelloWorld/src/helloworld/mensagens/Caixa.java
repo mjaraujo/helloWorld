@@ -15,7 +15,7 @@ public class Caixa extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        System.out.println("Eu sou o Vambaster");
+        System.out.println("Classe Caixa implementada por Vambaster");
     }
     
 }

@@ -16,7 +16,7 @@ public class Produtos extends Mensagem {
 
     @Override
     protected void exibirMensagem() {
-        JOptionPane.showMessageDialog(null,"O produto esta na prateleira");
+        System.out.println("O produto esta na prateleira");
     }
     
 }
