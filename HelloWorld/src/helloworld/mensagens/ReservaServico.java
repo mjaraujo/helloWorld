@@ -5,17 +5,19 @@
  */
 package helloworld.mensagens;
 
-import helloworld.Mensagem;
 
+import helloworld.Mensagem;
+import javax.swing.JOptionPane;
 /**
  *
- * @author ALUNO
+ * @author a1838105
  */
-public class Estoque extends Mensagem {
-
+public class ReservaServico extends Mensagem {
+    
     @Override
     protected void exibirMensagem() {
-        System.out.println("Estoque implementada por João!"); 
+        System.out.println("Reserva de servico feito, por willian");
     }
+    
     
 }
