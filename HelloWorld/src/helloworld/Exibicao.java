@@ -6,6 +6,7 @@
 package helloworld;
 
 
+import helloworld.mensagens.CadastroFuncionario;
 import helloworld.mensagens.Clientes;
 import helloworld.mensagens.Produtos;
 import helloworld.mensagens.Venda;
@@ -40,6 +41,8 @@ public class Exibicao {
         mensagens.add(estoque);
         Mensagem webService = new WebService();
         mensagens.add(webService);
+        Mensagem cadastroFuncionario = new CadastroFuncionario();
+        mensagens.add(cadastroFuncionario);
         
         
     }
